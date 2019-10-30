@@ -4,6 +4,19 @@
 # Log file
 *.log
 
+#intelij files
+.DS_Store
+.idea
+*.iml
+*.iws
+*.ipr
+
+#eclipse files
+.settings/
+.classpath
+.project
+
+
 # BlueJ files
 *.ctxt
 

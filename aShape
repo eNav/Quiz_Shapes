@@ -2,32 +2,18 @@ package Goemetric_Computations;
 
 public abstract class aShape implements IGeometry {
 	
+	//Purpose: To implement aShape
+	public aShape(int s) {
+		side = s;		}
+	
 	//Observers
-	protected double side;
+	protected int side;
 	
-			//Methods
+			//Method
 	//Purpose: To determine the side of the Circle
-	public double getside() {
-		return(side);
-	}
+	public int sides() {
+		return side;	}
 
-	//Purpose: To determine the area of a shape
-	public abstract double area();
 
-	//Purpose: To determine the perimeter of a shape
-	public abstract double perimeter();
-
-	//Purpose: To determine the number of sides in a shape
-	public abstract double sides();
-	
-	//Purpose: To determine if shape is a Qudilateral
-	public abstract boolean isQuadrilateral();
-
-	//Purpose: To determine if shape is a Triangle
-	public abstract boolean isTriangle();
-
-	//Purpose: To determine if shape is a Circle
-	public abstract boolean isCircle();
-		
 	
 }

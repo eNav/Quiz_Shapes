@@ -1,7 +1,9 @@
 package Goemetric_Computations;
 //Tests
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
+
 //JUnit Test File
 class Geometric_tests {
 
@@ -43,3 +45,4 @@ class Geometric_tests {
 	}
 
 }
+

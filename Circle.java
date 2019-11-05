@@ -3,14 +3,14 @@ package Goemetric_Computations;
  * Class for Circle
  * variable r => radius
  */
-public class Circle extends A_Shape{
+public class Circle extends aShape{
 	
-	public Circle(double side) {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	//Observers
 	protected double r;
+	
+	//Purpose: Implements a Circle
+	public Circle(double radius) {
+		r=radius;		}
 	
 				//Methods
 	//Purpose: To determine the area of the Circle
@@ -22,29 +22,21 @@ public class Circle extends A_Shape{
 	public double perimeter() {
 		//EQN Perimeter: PI X r X 2
 		return (Math.PI* r * 2);	}
-
 	
+	//Purpose: To determine the number of sides in this shape
 	public double sides() {
-		// TODO Auto-generated method stub
-		return 1;
-	}
+		return 1;	}
 
-	
+	//Purpose: To determine if shape is a Qudilateral
 	public boolean isQuadrilateral() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+		return false;	}
 
-	
+	//Purpose: To determine if shape is a Triangle
 	public boolean isTriangle() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+		return false;}
 
-	
+	//Purpose: To determine if shape is a Circle
 	public boolean isCircle() {
-		// TODO Auto-generated method stub
-		return true;
+		return true;	}
+	
 	}
-	}
-

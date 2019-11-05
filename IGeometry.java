@@ -9,5 +9,13 @@ public interface IGeometry {
 	//Determines area of Geometric shape
 	public double perimeter();
 	//Determines perimeter of Geometric shape
+	public double sides();
+	//Determines the sides of a Geometric shape
+	public boolean isQuadrilateral(); 
+	
+	public boolean isTriangle();
+	
+	public boolean isCircle();
+	
 
 }

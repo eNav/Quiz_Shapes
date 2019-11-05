@@ -4,12 +4,11 @@ package Goemetric_Computations;
  * variable base => a
  * variable height => h
  */
-public class EquilateralTriangle extends A_Triangle{
+public class EquilateralTriangle extends Triangle{
 	
-	//Observers
-	
-	//Purpose: Implements an Equilateral Triangle
-	public EquilateralTriangle(double s, double h) {
-		super(s,s,s,h);
+		//Purpose: Implements an Equilateral Triangle
+	public EquilateralTriangle(double a, double h) {
+		super(a,a,a,h);
 		}
-}
+		
+		}

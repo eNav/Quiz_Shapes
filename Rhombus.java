@@ -4,7 +4,7 @@ package Goemetric_Computations;
  * variable length => l
  * variable angle => a
  */
-public class Rhombus extends Quadilateral{
+public class Rhombus extends A_Quadrilateral{
 	
 	//Observers
 	protected double a, l;
@@ -13,11 +13,7 @@ public class Rhombus extends Quadilateral{
 	public Rhombus(double length, double angle) {
 		super(length,length);
 		l = length;
-		a = angle;		}
+		a = angle;		
+		}
 
-				//Methods
-	//Purpose: To determine the area of the Rectangle
-	public double area() {
-		//EQN Area: l X l X sin(a)
-		return (l * l * Math.sin(a));	}
 	}

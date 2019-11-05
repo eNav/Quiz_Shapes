@@ -17,7 +17,24 @@ class Geometric_tests {
 				
 		assertEquals(A.perimeter(), 16);
 		assertEquals(B.perimeter(), 18);
-		assertEquals(C.perimeter(), 60);}
+		assertEquals(C.perimeter(), 60);
+	
+		assertEquals(A.isQuadrilateral(), true);
+		assertEquals(B.isQuadrilateral(), true);
+		assertEquals(B.isQuadrilateral(), true);
+		
+		assertEquals(A.isTriangle(), false);
+		assertEquals(B.isTriangle(), false);
+		assertEquals(C.isTriangle(), false);
+		
+		assertEquals(A.isCircle(), false);
+		assertEquals(B.isCircle(), false);
+		assertEquals(C.isCircle(), false);
+		
+		assertEquals(A.sides(), 4);
+		assertEquals(B.sides(), 4);
+		assertEquals(C.sides(), 4);
+	}
 		
 	@Test
 	void Triangles() {
@@ -31,7 +48,23 @@ class Geometric_tests {
 		
 		assertEquals(A.perimeter(), 12);
 		assertEquals(B.perimeter(), 17);
-		assertEquals(C.perimeter(), 14);		
+		assertEquals(C.perimeter(), 14);	
+		
+		assertEquals(A.isQuadrilateral(), false);
+		assertEquals(B.isQuadrilateral(), false);
+		assertEquals(B.isQuadrilateral(), false);
+		
+		assertEquals(A.isTriangle(), true);
+		assertEquals(B.isTriangle(), true);
+		assertEquals(C.isTriangle(), true);
+		
+		assertEquals(A.isCircle(), false);
+		assertEquals(B.isCircle(), false);
+		assertEquals(C.isCircle(), false);
+		
+		assertEquals(A.sides(), 3);
+		assertEquals(B.sides(), 3);
+		assertEquals(C.sides(), 3);
 	}
 	
 	@Test
@@ -40,6 +73,15 @@ class Geometric_tests {
 		
 		assertEquals(A.area(),50.3, 0.1);
 		assertEquals(A.perimeter(), 25.1, 0.1);
+		
+		assertEquals(A.isQuadrilateral(), false);
+		
+		assertEquals(A.isTriangle(), false);
+				
+		assertEquals(A.isCircle(), true);
+			
+		assertEquals(A.sides(), 1);
+		
 	}
 
 }

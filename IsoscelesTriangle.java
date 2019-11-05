@@ -5,7 +5,7 @@ package Goemetric_Computations;
  * variable base => b
  * variable height => h
  */
-public class IsoscelesTriangle extends Triangle{
+public class IsoscelesTriangle extends A_Triangle{
 	
 	//Purpose: Implements an Isosceles Triangle
 	public IsoscelesTriangle(double a, double b, double h) {

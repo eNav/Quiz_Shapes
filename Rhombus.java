@@ -2,7 +2,7 @@ package Goemetric_Computations;
 /**
  * Class for Rhombus
  * variable length => l
- * variable angle => a
+ * variable diagonal => a
  */
 public class Rhombus extends Quadilateral{
 	
